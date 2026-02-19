@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Sistema Ayuda APP GUsuarios</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="ASIR Turaniana" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<meta name="description" content="Web con el sistema de ayuda de una aplicación Web para la gestión de una base de datos de Usuarios con dos tablas; USUARIOS e HISTORICO. " />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<link rel="stylesheet" type="text/css" href="download-package.css" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Sistema Ayuda APP GUsuarios</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_ArchivodeAyuda" class="nodeTitle">Archivo de Ayuda</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_exit_black" id="id1-0">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_exit_black.png)"><span class="iDeviceTitle">&nbsp;</span></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_120_2" class="block iDevice_content">
+<div class="exe-text"><div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Esta aplicación web permite la gestión de usuarios que puede ser integrada en cualquier otra aplicación para el control de acceso a zonas restringidas. </p>
+<p>Presenta la particularidad de que hay que gestionar las imágenes de los usuarios porque se registran en una carpeta del servidor, por lo que hay que controlar el tipo y tamaño de archivo.</p>
+<p>Otra particularidad es que los usuarios al ser borrados, no desaparecen, se pasan a una tabla HISTORICO como historial de todos los usuarios que han sido registrados en la aplicación. </p>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image position-center" style="width: 500px;"><img src="01-Cubierta.png" alt="Captura de pantalla de la APP" title="APP GUsuarios" width="500" height="283" />
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <span class="title"><em>APP GNoticias</em></span></figcaption>
+</figure>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-13">
+<header class="nodeDecoration">
+<h1 id="exenode_13_1Inicio" class="nodeTitle">1. Inicio</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id20-13">
+<div class="iDevice emphasis0" >
+<div id="ta20_639_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Esta primera pantalla de la aplicación está construida con un encabezado y un pie, comunes a todos las páginas de forma que su funcionamiento se extiende a toda la aplicación. Después tenemos un cuerpo específico para cada página.&nbsp;</p>
+<p>El encabezado está compuesto por:</p>
+<ul>
+<li>el título de la APP, "ESQUEMA DATOS DE USUARIOS",&nbsp;</li>
+<li>y la barra de navegación con cuatro enlaces:
+<ul>
+<li>INICIO. Lleva a esta misma página.</li>
+<li>USUARIOS. Cambia a la página de <a href="#exenode_2_2Gestindeusuarios">gestión de usuarios</a>.</li>
+<li>HISTÓRICO. Cambia a la página de <a href="#exenode_10_3GestindelHistrico">gestión del histórico</a>.</li>
+<li>AYUDA. Enlaza con este sistema de ayuda.</li>
+</ul>
+</li>
+</ul>
+<p>El pie muestra el logotipo del ciclo de ASIR y el texto "ASIR Turaniana" como firma de quienes desarrollan la APP.</p>
+<p>El cuerpo de la página se sitúa en la zona central y muestra el texto "GESTIÓN DE USUARIOS" junto con una imagen que representa dos personas.</p>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="01-Cubierta.png" rel="lightbox"><img src="01-Cubierta.png" alt="Página principal de la APP GUsuarios" title="APP GUsuarios" width="500" height="282"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-2">
+<header class="nodeDecoration">
+<h1 id="exenode_2_2Gestindeusuarios" class="nodeTitle">2. Gestión de usuarios</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id21-2">
+<div class="iDevice emphasis0" >
+<div id="ta21_635_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Esta pantalla de la aplicación mantiene el encabezado y pie, comunes a todas las páginas.&nbsp;</p>
+<p>En el cuerpo de esta página aparece el título de la página "Gestión de Usuarios" y una tabla con todos los datos registrados en el servidor de base de datos, donde hay que destacar:</p>
+<ul>
+<li>El <a href="#exenode_16_21Altadeusuarios"><strong>BOTÓN DE ALTAS</strong></a>, de color naranja y situado en la barra amarilla de encabezados de columnas. Se pulsará para abrir el formulario de recogida de datos de nuevos usuarios.</li>
+<li>En cada fila, junto a la imagen de usuario, aparecen tres botones con las operaciones a realizar:
+<ul>
+<li><a href="#exenode_17_22Verdatosdeusuario"><strong>VER</strong></a>. Muestra todos los datos del usuario.</li>
+<li><a href="#exenode_18_23Eliminarusuario"><strong>BORRAR</strong></a>. Elimina el usuario de la tabla de USUARIOS y lo copia al HISTÓRICO.</li>
+<li><a href="#exenode_19_24Modificarusuario"><strong>MODIFICAR</strong></a>. Permite editar los datos del usuario en cuestión y cambiarlos.</li>
+</ul>
+</li>
+</ul>
+<p>Tras la tabla nos muestra un paginador que permite navegar por las páginas que genera la consulta, cuando aparecen más de ocho registros por página.</p>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image position-center" style="width: 500px;"><a href="02-GUsuarios.png" rel="lightbox"><img src="02-GUsuarios.png" alt="Gestión de la tabla Usuarios" title="GUsuarios" width="500" height="282"></a>
+<figcaption class="figcaption"><span class="title"><em>Captura de pantalla APP GUsuarios.</em></span></figcaption>
+</figure>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-16">
+<header class="nodeDecoration">
+<h1 id="exenode_16_21Altadeusuarios" class="nodeTitle">2.1. Alta de usuarios</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id23-16">
+<div class="iDevice emphasis0" >
+<div id="ta23_637_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Pantalla de formulario de altas.</p>
+<p>Recoge todos los datos para registrar nuevos usuarios en la tabla de USUARIOS del sistema.&nbsp;</p>
+<p>Hay que advertir que la imagen se sube al servidor desde el equipo y requiere comprobaciones de tipo y tamaño de archivo (admite formato JPG y PNG de hasta 200 Kb).</p>
+<p>Esta pantalla lleva a un visor que informa si se ha registrado correctamente el usuario o si por el contrario ha habido errores.&nbsp;</p>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="03-AltaUsuarios.png" rel="lightbox"><img src="03-AltaUsuarios.png" alt="Formulario de alta de Usuarios" title="APP Alta Usuarios" width="501" height="287"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-17">
+<header class="nodeDecoration">
+<h1 id="exenode_17_22Verdatosdeusuario" class="nodeTitle">2.2. Ver datos de usuario</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id24-17">
+<div class="iDevice emphasis0" >
+<div id="ta24_638_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Pantalla VER datos de usuarios.</p>
+<p>Muestra una ficha con los datos del usuario seleccionado.&nbsp;</p>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="04-ConsultaUsuario.png" rel="lightbox"><img src="04-ConsultaUsuario.png" alt="Consultar datos de un usuario" title="Ver datos de Usuarios" width="500" height="272"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-18">
+<header class="nodeDecoration">
+<h1 id="exenode_18_23Eliminarusuario" class="nodeTitle">2.3. Eliminar usuario</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id25-18">
+<div class="iDevice emphasis0" >
+<div id="ta25_639_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Eliminar un usuario.&nbsp;</p>
+<p>Al ser eliminado un usuario del sistema, lo que hacemos es pasarlo al HISTÓRICO de modo que puede ser recuperado en cualquier momento. Una vez que muestra los datos del usuario registrado tenemos dos opciones en sendos botones:</p>
+<ul>
+<li>Botón para confirmar el borrado.</li>
+<li>Botón para cancelación y regresar a la pantalla de <a href="#exenode_2_2Gestindeusuarios">GUsuarios</a>.</li>
+</ul>
+<p>La eliminación de registros de esta pantalla implica que pasa todos los datos a la tabla HISTÓRICO y el archivo de imagen debe cambiar de carpeta.</p>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="05-BorrarUsuario.png" rel="lightbox"><img src="05-BorrarUsuario.png" alt="Enviar Usuarios al Histórico" title="APP Borrar Usuarios" width="499" height="275"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-19">
+<header class="nodeDecoration">
+<h1 id="exenode_19_24Modificarusuario" class="nodeTitle">2.4. Modificar usuario</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id26-19">
+<div class="iDevice emphasis0" >
+<div id="ta26_640_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Modificar datos de un usuario.&nbsp;</p>
+<p>El único dato que no permitimos cambiar del usuario es el NICK, que coincide con el DNI del usuario, el resto de datos, los podemos cambiar en alguna de las tres zonas en las que dividimos la pantalla:</p>
+<ul>
+<li>Cambiar contraseña. Basta con pulsar el botón y accederemos a la pantalla para introducir nueva contraseña y repetirla.&nbsp;</li>
+</ul>
+<p><a href="06-1-ModificarContrasenaUsuario.png" rel="lightbox"><img src="06-1-ModificarContrasenaUsuario.png" alt="Captura de pantalla para cambiar contraseña" title="Cambiar contraseña" width="300" height="197" style="display: block; margin-left: auto; margin-right: auto;"></a></p>
+<ul>
+<li>Cambiar datos del usuario. Basta con cambiar cualquier dato y pulsar el botón ENVIAR y regresa a la pantalla de GUsuarios. Con el botón RESTAURAR reinicia con los datos que tenemos almacenados.</li>
+</ul>
+<ul>
+<li>Cambiar la imagen. Permite seleccionar nueva imagen y cambiarla pulsando el botón CAMBIAR IMAGEN.</li>
+</ul>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="06-ModificarUsuario.png" rel="lightbox"><img src="06-ModificarUsuario.png" alt="Modificar datos de usuario" title="APP Modificar Usuarios" width="500" height="280"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-10">
+<header class="nodeDecoration">
+<h1 id="exenode_10_3GestindelHistrico" class="nodeTitle">3. Gestión del Histórico</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id22-10">
+<div class="iDevice emphasis0" >
+<div id="ta22_636_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Esta pantalla de la aplicación también mantiene el encabezado y pie, comunes a todas las páginas.&nbsp;</p>
+<p>En el cuerpo de esta página aparece el título de la página "Gestión de Usuarios Borrados" y una tabla con todos los datos registrados en el servidor de base de datos en la tabla HISTORICO, donde hay que destacar:</p>
+<ul>
+<li>En cada fila, junto a la imagen de usuario, aparecen tres botones con las operaciones a realizar:
+<ul>
+<li><a href="#exenode_20_31Verdatosusuariodelhistrico"><strong>VER</strong></a>. Muestra todos los datos del usuario.</li>
+<li><a href="#exenode_21_32Borrarusuariodelhistrico"><strong>BORRAR</strong></a>. Elimina definitivamente los datos del usuario de la tabla HISTÓRICO.</li>
+<li><span style="color: #008000;"><strong>RESTAURAR</strong></span>. Permite pasar el usuario a la tabla USUARIOS, desapareciendo de la tabla HISTORICO. Hay que precisar que la foto cambia de la carpeta "histórico" a la carpeta "imágenes", y por tanto cambia la ruta de la misma en el registro de la base de datos.</li>
+</ul>
+</li>
+</ul>
+<p>Tras la tabla nos muestra un paginador que permite navegar por las páginas que genera la consulta, cuando aparecen más de ocho registros por página.</p>
+</div>
+<div class="exe-col exe-col-2">
+<figure class="exe-figure exe-image position-center" style="width: 500px;"><a href="02-GUsuarios.png" rel="lightbox"><img src="07-GHistorico.png" alt="Gestión de la tabla HISTORICO" title="GHistorico" width="500" height="280"></a>
+<figcaption class="figcaption"><span class="title"><em>Captura de pantalla APP GUsuarios.</em></span></figcaption>
+</figure>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-20">
+<header class="nodeDecoration">
+<h1 id="exenode_20_31Verdatosusuariodelhistrico" class="nodeTitle">3.1. Ver datos usuario del histórico</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id27-20">
+<div class="iDevice emphasis0" >
+<div id="ta27_635_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Pantalla VER datos de usuarios del histórico.</p>
+<p>Muestra una ficha con los datos del usuario seleccionado.&nbsp;</p>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="08-ConsultaUsuarioHistorico.png" rel="lightbox"><img src="08-ConsultaUsuarioHistorico.png" alt="Consultar datos de un usuario del HISTÓRICO" title="Ver datos de Usuarios del HISTÓRICO" width="500" height="282"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-3-node" id="exe-node-21">
+<header class="nodeDecoration">
+<h1 id="exenode_21_32Borrarusuariodelhistrico" class="nodeTitle">3.2. Borrar usuario del histórico</h1>
+</header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id28-21">
+<div class="iDevice emphasis0" >
+<div id="ta28_636_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-layout-2-cols exe-layout-2-70-30 exe-clear">
+<div class="exe-col exe-col-1">
+<p>Eliminar un usuario del HISTÓRICO.&nbsp;</p>
+<p>Al ser eliminado un usuario del registro de históricos, se pierden definitivamente todos los datos sin posibilidad de recuperación. Elimina también la imagen de la carpeta de imágenes del histórico y no queda rastro de ese usuario por lo que se ha diseñado con un color que avisa del peligro que supone. Una vez que muestra los datos del usuario registrado tenemos dos opciones en sendos botones:</p>
+<ul>
+<li>Botón para confirmar el borrado.</li>
+<li>Botón para cancelación y regresar a la pantalla de <a href="#exenode_10_3GestindelHistrico">GHistorico</a>.</li>
+</ul>
+</div>
+<div class="exe-col exe-col-2">
+<p><a href="09-BorrarUsuarioHistorico.png" rel="lightbox"><img src="09-BorrarUsuarioHistorico.png" alt="Borra Usuarios del Histórico" title="APP Borrar Usuarios del HISTÓCICO" width="500" height="282"></a></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-14">
+<header class="nodeDecoration">
+<h1 id="exenode_14_Crditos" class="nodeTitle">Créditos</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tareagrupal" id="id633-14">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h2 class="iDeviceTitle">Autoría</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta633_251_2" class="block iDevice_content">
+<div class="exe-text"><h1 style="text-align: center;"><img src="logo_asir.png" alt="Imagen del CF ASIR" width="124" height="100" /></h1>
+<table class="exe-table" style="height: 115px;"><caption></caption>
+<tbody>
+<tr style="height: 23px;">
+<th style="width: 421.385px; height: 23px;">Título</th>
+<td style="width: 848.115px; height: 23px;">Sistema de Ayuda APP GUsuarios.</td>
+</tr>
+<tr style="height: 23px;">
+<th style="width: 421.385px; height: 23px;">Descripción</th>
+<td style="width: 848.115px; height: 23px;">Presentación generada con ExeLearning que explica cada una de las pantallas de la APP GUsuarios.</td>
+</tr>
+<tr style="height: 23px;">
+<th style="width: 421.385px; height: 23px;">Autor</th>
+<td style="width: 848.115px; height: 23px;">Alfonso Bonillo Sierra (IES Turaniana)</td>
+</tr>
+<tr style="height: 23px;">
+<th style="width: 421.385px; height: 23px;">Organización</th>
+<td style="width: 848.115px; height: 23px;">IES Turaniana. Consejería de Educación y Deporte. Junta de Andalucía.</td>
+</tr>
+<tr style="height: 23px;">
+<th style="width: 421.385px; height: 23px;">Licencia</th>
+<td style="width: 848.115px; height: 23px;"><a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Este contenido fue creado con <a href="http://exelearning.net/">eXeLearning</a>, el editor libre y de fuente abierta diseñado para crear recursos educativos.</p>
+<p style="text-align: center;"><img src="LogoJuntadeAndalucia.jpg" alt="Logotipo de la Junta de Andalucía" title="Junta de Andalucía" width="100" height="50" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper download-packageIdevice em_iDevice em_iDevice_download_black" id="id634-14">
+<div class="iDevice emphasis1">
+<header class="iDevice_header" style="background-image:url(icon_download_black.png)"><h2 class="iDeviceTitle">Aquí tienes el archivo fuente para editar este REA</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="block iDevice_content" id="ta634_327_2">
+<div class="exe-download-package-instructions"><p style="text-align: center;"><span style="font-size: 14pt;"><img alt="Icono IES Turaniana" height="52" src="logoIESTuraniana.jpg" style="float: right;" title="Icono IES Turaniana" width="50"/></span></p>
+<ul>
+<li><span style="font-size: 14pt;">Contenido REA (Recurso Educativo Abierto) publicado bajo <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" onclick="browseURL(this); return false;" rel="noopener" target="_blank">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></span></li>
+</ul>
+<ul>
+<li><span style="font-size: 14pt;">Esto significa que tienes la posibilidad de poder usarlo, descargarlo, redistribuirlo y modificarlo para adaptarlo a tus necesidades.</span><span style="font-size: 14pt;"></span></li>
+</ul>
+<ul>
+<li><span style="font-size: 14pt;">Sigue estos pasos para usar/redistribuir/modificar este REA:</span><span style="font-size: 14pt;"></span>
+<ul>
+<li><span style="font-size: 14pt;"><strong>1.</strong> Descarga el archivo fuente. Con esto tienes el recurso original en formato editable.</span></li>
+<li><span style="font-size: 14pt;"><strong>2.</strong> Modifícalo </span><span style="font-size: 14pt;">usando </span><a href="http://exelearning.net/" rel="noopener" style="font-size: 14pt;" target="_blank" title="Accede a la web de eXeLearning (abre en nueva ventana)">eXeLearning</a><span style="font-size: 14pt;">.</span></li>
+<li><span style="font-size: 14pt;"><strong>3.</strong> Te invitamos a descargar e instalar </span><span style="font-size: 14pt;">el estilo <a href="IESTuraniana.zip" title="Estilo IES Turaniana [zip - 105077 B]">IES Turaniana</a><span class="exe-link-data file-size"> (zip - 105077 <abbr lang="en" title="Bytes">B</abbr>)</span>.</span></li>
+<li><span style="font-size: 14pt;"><strong>4.</strong> S</span><span style="font-size: 14pt;">i lo modificas, has de reconocer la autoría y</span><span style="font-size: 14pt;"> publicarlo con la misma licencia (CC BY-SA-NC).</span></li>
+</ul>
+</li>
+</ul></div><p class="exe-download-package-link"><a href="ayuda.elp">Descargar el fichero .elp</a></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+
+
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body>
+</html>
